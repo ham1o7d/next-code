@@ -1,0 +1,43 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.followerslist-container{
+
+  /* width: 80%; */
+  margin: 50px auto;
+
+}
+.follower-item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px ;
+  width: 300px;
+  /* border: 1px black solid; */
+}
+.follower-item img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.followers-details{
+
+}
